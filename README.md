@@ -1,11 +1,13 @@
 At BlinkOn 3, we introduced [Midnight
 train](http://bit.ly/blink-midnight-train), which is a set of performance goals
 we wish for all web content to be able to achieve on mobile devices. In its
-simplest form, we hope that plain old web content can: * Get to a loaded and
-interactive state in less than 1000ms on a warm load * Respond to touch down
-events within 100ms Maintain 60hz framerate throughout * any interaction or
-transition that results Do cleanup/fingerup/idle work in * less than 100ms
-chunks so that if a finger down happens again, there will be * only minor lag
+simplest form, we hope that plain old web content can:
+
+* Get to a loaded and interactive state in less than 1000ms on a warm load
+
+* Respond to touch down events within 100ms Maintain 60hz framerate throughout any interaction or transition that results
+* Do cleanup/fingerup/idle work in less than 100ms
+chunks so that if a finger down happens again, there will be only minor lag
 returning to a 60hz state.
 
 Careful and judicious use of threads is an essential part of achieving this
