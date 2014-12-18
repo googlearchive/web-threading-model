@@ -10,9 +10,6 @@ In the best of all possible worlds, every operation on the web would be fast. St
 ### tough cases
 One way to measure the quality of a solution, is to judge its performance on a set of difficult test pages. TODO: create some tests and upload.
 
-### must have's
+### properties of a good solution
 - Must be possible to coordinate effects with input.
-- TODO: more?
-
-### nice to have's
-TODO: fill this in
+- TODO: more
